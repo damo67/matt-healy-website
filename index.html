@@ -3,55 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matt Healy Advisory - Financial Consulting</title>
+    <title>Matt Healy Advisory</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Healy<br>Advisory</h1>
-            <p class="hero-tagline">ADVICE • ENGAGEMENT • REPORTING • CONSULTATION</p>
-            <div class="hero-image">
-                <img src="https://via.placeholder.com/400x400?text=Matt+Healy" alt="Matt Healy" class="profile-image">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-line">Healy</span>
+                <span class="brand-line">Advisory</span>
             </div>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Healy<br>Advisory</h1>
+                <p class="hero-subtitle">Expert financial guidance and strategic consultation</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop" alt="Matt Healy" class="profile-photo">
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2>About Matt</h2>
-            <p>Matt Healy is a principal advisor and consultant specializing in strategic financial guidance for individuals and businesses. With deep expertise in financial planning, corporate advisory, and reporting, Matt provides comprehensive solutions tailored to your unique needs.</p>
-            <p>Built on a foundation of integrity, diligence, and transparency, Healy Advisory delivers actionable advice that drives real results.</p>
+            <div class="section-header">
+                <h2>About Matt</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <p>Matt Healy brings deep expertise in financial advisory, corporate strategy, and risk management. With a commitment to transparency and results-driven counsel, Matt partners with clients to navigate complex financial landscapes and achieve their long-term objectives.</p>
+                <p>Built on integrity, analytical rigor, and a collaborative approach, Healy Advisory delivers bespoke solutions tailored to each client's unique circumstances and goals.</p>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Our Services</h2>
+            <div class="section-header">
+                <h2>Services</h2>
+                <div class="header-line"></div>
+            </div>
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">💼</div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        </svg>
+                    </div>
                     <h3>Advice</h3>
-                    <p>Strategic financial guidance tailored to your goals. We analyze your situation and provide clear, actionable recommendations.</p>
+                    <p>Strategic financial guidance tailored to your goals, risk tolerance, and timeline. We provide clear, actionable recommendations grounded in thorough analysis.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🤝</div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
                     <h3>Engagement</h3>
-                    <p>Collaborative partnerships built on trust and communication. We work with you every step of the way.</p>
+                    <p>Collaborative partnership built on trust and clear communication. We work alongside you at every stage, ensuring alignment and transparency.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
                     <h3>Reporting</h3>
-                    <p>Transparent, comprehensive reporting that keeps you informed. Clear insights into your financial position and progress.</p>
+                    <p>Comprehensive, transparent reporting that keeps you informed and in control. Regular insights into performance, position, and progress toward your objectives.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">💬</div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
                     <h3>Consultation</h3>
-                    <p>Expert consultation on complex financial matters. Leverage our experience to navigate challenges and opportunities.</p>
+                    <p>Expert counsel on complex financial decisions. Leverage specialized expertise to evaluate opportunities, manage risks, and optimize outcomes.</p>
                 </div>
             </div>
         </div>
@@ -60,17 +109,22 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Let's Talk</h2>
-            <p>Ready to discuss your financial future? Get in touch with Matt.</p>
-            <div class="contact-info">
-                <a href="tel:+61416035836" class="contact-link">
-                    <span class="phone-icon">📞</span>
-                    +61 416 035 836
-                </a>
-                <a href="mailto:matt@healyadvisory.com.au" class="contact-link">
-                    <span class="email-icon">✉️</span>
-                    matt@healyadvisory.com.au
-                </a>
+            <div class="section-header">
+                <h2>Let's Talk</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="contact-content">
+                <p>Ready to discuss your financial future? Reach out to schedule a consultation.</p>
+                <div class="contact-methods">
+                    <a href="tel:+61416035836" class="contact-button">
+                        <span class="button-icon">📞</span>
+                        <span>+61 416 035 836</span>
+                    </a>
+                    <a href="mailto:hello@healyadvisory.com.au" class="contact-button">
+                        <span class="button-icon">✉️</span>
+                        <span>hello@healyadvisory.com.au</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
